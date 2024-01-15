@@ -1,2 +1,3 @@
 # Predicting-Prices
-Using a Long Short-Term neural network to predict a given stock's price
+
+In this project, I utilized a Long Short-Term neural network to predict the future price of SPY. I decided to use a Long Short-Term neural network as stock data is considered time-series data, and this choice of model is effective in predicting patterns in time-series data. For the data preprocessing, I used data 3 years from the current date (01/14/2024). I also decided to preprocess and scale the data using the MinMaxScaler from sklearn which kept the values between 0 and 1. After fitting the model to the data, I had a testing mean-squared error of approximately 0.0295 (on the scaled data).
